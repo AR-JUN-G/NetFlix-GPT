@@ -1,11 +1,9 @@
-import './App.css'
-
-function App() {
-
+import Body from "./Components/Body"
+const App=()=>{
   return (
     <>
-        <div className='text-3xl'>
-          Hello World
+        <div>
+            <Body/>
         </div>
     </>
   )
