@@ -8,7 +8,7 @@ const validateSignUpDetails = (email, password) => {
     if (!isEmailValid) return "Email Id is Not Valid";
     if (!isPasswordValid) return "Password is Not Valid";
     
-    return "";
+    return null;
 }
 
 export {validateSignUpDetails};
